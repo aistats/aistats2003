@@ -1,0 +1,64 @@
+
+# Site settings
+title: Artificial Intelligence and Statistics Conference
+description: > # this means to ignore newlines until "baseurl:"
+  This is the website of the AISTATS conference.
+baseurl: "/aistats2003" # the subpath of your site, e.g. /blog/
+url: "http://www.aistats.org" # the base hostname & protocol for your site
+#twitter_username: aistat
+github_username:  aistats
+author:
+  name: AISTATS
+  email:
+comments: false
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: aistats
+
+ghub:
+  edit: true
+  repository: aistats2003
+
+banner: 
+
+# Build settings
+markdown: kramdown
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: main.jpg
+  hide_tentative: true
+  proceedings:
+    url: https://web.archive.org/web/20071224185031/http://research.microsoft.com/conferences/aistats2003/proceedings/index.htm
+    show: true
+  room: 
+  venue: The Hyatt Hotel
+  venue_url: https://www.hyatt.com/en-US/hotel/florida/hyatt-centric-key-west-resort-and-spa/kwest
+  location: Key West, Florida, USA
+  full_name: Artificial Intelligence and Statistics
+  short_name: AISTATS
+  name: Artificial Intelligence and Statistics
+  year: 2003
+  instance: 9th
+  styling: International Workshop on
+  dates:
+  - 2003-01-03
+  - 2003-01-06
+  chairs:
+  - type: Program Chairs
+    people:
+    - family: Bishop
+      given: Christopher M.
+      institute: Microsoft Research
+      url: http://research.microsoft.com/~cmbishop
+    - family: Frey
+      given: Brendan
+      institute: University of Toronto
+      url: http://www.psi.utoronto.ca/~frey/
+# change encoding for the generated output files to utf-8
+encoding: utf-8
+
+
