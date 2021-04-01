@@ -32,7 +32,7 @@ conference:
   image: main.jpg
   hide_tentative: true
   proceedings:
-    url: https://web.archive.org/web/20071224185031/http://research.microsoft.com/conferences/aistats2003/proceedings/index.htm
+    url: https://proceedings.mlr.press/r4/
     show: true
   room: 
   venue: The Hyatt Hotel
