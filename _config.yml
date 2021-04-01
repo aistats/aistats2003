@@ -32,7 +32,7 @@ conference:
   image: main.jpg
   hide_tentative: true
   proceedings:
-    url: https://proceedings.mlr.press/r4/
+    url: http://proceedings.mlr.press/r4/
     show: true
   room: 
   venue: The Hyatt Hotel
