@@ -27,37 +27,6 @@ banner:
 # Build settings
 markdown: kramdown
 
-conference:
-  draft: false # set to True if the programme is draft only.
-  image: main.jpg
-  hide_tentative: true
-  proceedings:
-    url: http://proceedings.mlr.press/r4/
-    show: true
-  room: 
-  venue: The Hyatt Hotel
-  venue_url: https://www.hyatt.com/en-US/hotel/florida/hyatt-centric-key-west-resort-and-spa/kwest
-  location: Key West, Florida, USA
-  full_name: Artificial Intelligence and Statistics
-  short_name: AISTATS
-  name: Artificial Intelligence and Statistics
-  year: 2003
-  instance: 9th
-  styling: International Workshop on
-  dates:
-  - 2003-01-03
-  - 2003-01-06
-  chairs:
-  - type: Program Chairs
-    people:
-    - family: Bishop
-      given: Christopher M.
-      institute: Microsoft Research
-      url: http://research.microsoft.com/~cmbishop
-    - family: Frey
-      given: Brendan
-      institute: University of Toronto
-      url: http://www.psi.utoronto.ca/~frey/
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
